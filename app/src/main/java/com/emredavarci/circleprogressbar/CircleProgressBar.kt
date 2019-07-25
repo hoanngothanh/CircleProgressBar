@@ -84,7 +84,7 @@ class CircleProgressBar : View {
 
         progressColor = ta.getColor(R.styleable.CircleProgressBar_progressColor, Color.BLUE)
         backgroundColor = ta.getColor(R.styleable.CircleProgressBar_backgroundColor, Color.GRAY)
-        strokeWidth = ta.getFloat(R.styleable.CircleProgressBar_strokeWidth, 10f)
+        strokeWidth = ta.getFloat(R.styleable.CircleProgressBar_cpbWidth, 10f)
         backgroundWidth = ta.getFloat(R.styleable.CircleProgressBar_backgroundWidth, 10f)
         roundedCorners = ta.getBoolean(R.styleable.CircleProgressBar_roundedCorners, false)
         maxValue = ta.getFloat(R.styleable.CircleProgressBar_maxValue, 100f)
